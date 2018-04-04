@@ -31,7 +31,7 @@
         </style>
 	</head>
 	<body>
-
+        <script>alert("Attention, votre naviguateur est entrain de lutter contre un malware platonicien qui essaie de pirater vos données !")</script>
         <h2>Par ici, la terre est hostile. Il est encore temps de rebrousser chemin</h2>
         <p>
           <form method="post" action="Accueil.php">
