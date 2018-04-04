@@ -23,7 +23,7 @@
         </style>
 	</head>
 	<body>   
-    <a href="start.php"><img src="img/torchefeu.jpg"></a>
+    <a href="Start.php"><img src="img/torchefeu.jpg"></a>
     <p>Par ici, c'est la caverne. Ton seul ami au cours du voyage: le feu. Seul lui pourra t'éclairer. Prends le à chaques fois que tu en as l'occasion. N'oublie pas cela, Prends le feuuuuuuu</p>
 	</body>
 </html>
