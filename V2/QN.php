@@ -10,7 +10,7 @@
 		<meta charset="utf-8" />
         <title>Myth Cavern Game</title>
         <style>
-        *{border: 1px white solid;}
+        /**{border: 1px white solid;}*/
         body {
         	background: black url('img/caverne3.jpg') no-repeat;
         	background-size: 100%;
