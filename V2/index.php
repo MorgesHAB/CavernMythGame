@@ -7,18 +7,16 @@
           font-size: 50px;
           color: black;
           text-shadow: 50px 50px 500px black;
-          background-image: url("img/cavern_loin.jpg");
-          /*full height*/
-          height: 50%
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
+          background: url("img/cavern_loin.jpg") center no-repeat cover;
+        }
+        p {
+          height: 50%;
           margin: 50px 200px;
         }
         a {
           position: relative;
           top: 500px;
-          margin-left: 1200px;
+          margin-left: 800px;
         }
         </style>
 	</head>
