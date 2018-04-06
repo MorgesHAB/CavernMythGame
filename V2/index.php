@@ -7,7 +7,7 @@
           font-size: 50px;
           color: black;
           text-shadow: 50px 50px 500px black;
-          background: url("img/cavern_loin.jpg") center no-repeat cover;
+          background: url("img/cavern_loin.jpg") /*center no-repeat cover*/;
         }
         p {
           height: 50%;
