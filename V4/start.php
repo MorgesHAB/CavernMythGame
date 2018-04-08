@@ -49,7 +49,7 @@
           box-shadow: 12px 12px 100px orange;
         }
         input[type*=text] {
-          background: url('img/fire.jpg') 2px;
+          background: #86a4d6;
           color: white;
           font-size: 15px;
         }
@@ -99,7 +99,7 @@
             <div id="Platon">
               <div>
                 <img src="img/PlatonCloud.png">
-                <p>Merci de m'avoir libérer de ma lampe <?php echo htmlspecialchars($_POST['nom']); ?>, pour te remercier, je vais t'emmener à la réalité ! Commence par prendre la torche si tu veux y voir clair</p>
+                <p>Merci de m'avoir libéré de ma lampe <?php echo htmlspecialchars($_POST['nom']); ?>, pour te remercier, je vais t'emmener vers la réalité de ce monde ! Commence par prendre la torche si tu veux y voir clair</p>
               </div>
              <a href="QN.php"><img src="img/Torche.png"></a>
             </div>

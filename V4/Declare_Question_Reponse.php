@@ -11,73 +11,74 @@
         "Réponse 4");	*/
 
     $Q1 = array(
-        "Quel est pour vous la principale voie pour accéder au bonheur ?",
-        "Sexualité",
-        "Richesse",
-        "Apparence",
-        "Connaissance");
+        "Quelle est pour vous la principale voie pour accéder à l'idée du bien ?",
+        "La beauté",
+        "L'amour",
+        "La justice",
+        "La connaissance");
 
     $Q2 = array(
         "En rentrant de soirée, vous croisez un homme à terre qui semble être très ivre. Quelle est votre réaction ?",
         "Je l'ignore",
-        "Je m'inquiète simplement de savoir si la vie la quitté ",
-        "J'avertis la police",
+        "Je me questionne simplement de ce qui va lui arriver",
+        "J'avertis la police afin qu'il reçoive de l'aide",
         "Je l'aide");
+
     $Q3 = array(
         "Si vous êtes face à une difficulté, comment réagissez-vous ?",
         "Je fais comme si je n'avais aucune difficulté",
-        "Je panique mais affronte cette difficulté",
-        "Je la surmonte sans problème, parfois tête baissée",
-        "Je réfléchis à la cause de cette difficulté et agis en conséquent.");
+        "Je trouve une alternative à cette difficulté",
+        "J'essaie de la surmonter mais si une douleur est ressentie, j'arrête aussitôt",
+        "Je réfléchis à la cause de cette difficulté et agis en conséquent jusqu'à la surmonter");
 
     $Q4 = array(
-        "Te sens-tu expert dans un domaine spécifique ?",
-        "Non, j'estime être bon en rien",
-        "Non, car il est impossible d'être expert",
-        "Oui, car tout un chacun est un expert dans un domaine",
-        "Non je ne suis pas expert mais j'estime avoir un bon niveau dans un domaine. Cela me permet de progresser ce que j'apprécie.");
+        "Aimeriez-vous vivre dans l'ignorance ?",
+        "Oui, je n'aurais jamais voulu être éduqué",
+        "Oui car l'ignorance nous empêcherait de comprendre l'absurdité de notre monde",
+        "Non, car l'ignorance endort notre qualité de vie humaine",
+        "Non, je ne peux arrêter ma soif de savoir");
 
     $Q5 = array(
         "Aimez-vous les nouvelles technologies ?",
         "Non, l'homme est en danger à cause d'elles",
         "Non, elles ne m'inspirent pas confiance",
-        "Oui, je rêve de les développer",
+        "Oui, mais il faut prendre garde à certaines",
         "Oui, elles nous aident à avancer");  
 
     $Q6 = array(
-        "Comment réagiriez-vous si l'on vous disait que la vie sur Terre a été crée par des extraterrestres et qu'ils observent notre développement depuis des milliers d'années",
-        "J'essaierai de trouver des armes pour me défendre en cas d'attaques",
-        "Je me moquerais de celui qui le prétend",
-        "Cela hanterait ma vie",
-        "Je trouverais cela fabuleux");
+        "Pensez-vous qu'il faudra prochainement quitter notre planète Terre pour des raisons écologiques ?",
+        "Non, nous réussirons à trouver des solutions à ces problèmes dans le future",
+        "Non, si nous faisons attention dès maintenant à l'écologie",
+        "Oui, même si actuellement on nous moralise sur notre futur",
+        "Oui, il sera obligatoire de quitter la Terre, il faut voir la vérité en face");
 
     $Q7 = array(
         "Selon vous, par quoi commence la vrai connaissance ?",
-        "La connaissance se développe chez moi en écoutant les propos des politiciens",
         "La connaissance se développe chez moi grâce aux émissions de télé réalité",
+        "La connaissance se développe chez moi en écoutant les propos des politiciens",
         "Par un voyage culturel",
         "Par une prise de conscience");
 
     $Q8 = array(
-        "Quelle est la caractèristique qui vous correspond le mieux ?",
-        "Meneur",
-        "Timide",
-        "Heureux",
-        "Curieux");
+        "Si des gens revenant d'un voyage sur une exoplanète vous disent que la vie sur celle-ci est bien meilleure que sur notre Terre, que faites-vous ?",
+        "Je ne les crois pas et reste avec mon entourage sur cette Terre",
+        "Je médite sur leurs affirmations mais sans action ultérieure",
+        "Je me prépare psychiquement afin de quitter cette Terre dans les prochaines années",
+        "Je quitte tout et pars le plus tôt possible pour cette exoplanète");
 
     $Q9 = array(
-        "Si vous étiez un berger et que l'un de vos moutons s'échappait. Que feriez-vous?",
+        "Si vous étiez un berger et que l'un de vos moutons s'échappait. Que feriez-vous ?",
         "Je l'abats sur le champ",
         "Je l'ignore et reste près du troupeau",
         "Je lui cours après et abandonne le troupeau",
         "J'essaie de lui courir après en emmenant le troupeau avec moi");
 
     $Q10 = array(
-        "Pensez-vous que l'éducation est essentiel au bonheur ?",
-        "Non, ce n'est qu'une invention pour monter l'esprit des gens",
+        "Pensez-vous que l'éducation est essentielle au bonheur ?",
+        "Non, ce n'est qu'une invention créée pour dominer la société",
         "Non, au contraire, l'éducation rend les gens malheureux car elle détruit leur personnalité",
         "Oui, elle permet de voir le monde sous son angle réel",
-        "Oui, elle développe un sens critique nécessaire au bonhneur");
+        "Oui, elle développe un sens critique nécessaire au bonheur");
 
     // idée question parler de l'apprentissage (escaldade caverne en sortant) & la nouveauté éblouissant en sortant 
     // aider les gens éducation 

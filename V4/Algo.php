@@ -23,7 +23,7 @@
 
     // Attribution des points au joueur
     $score = 0;
-    // Tant de point avec réponse 1, 2, 3, 4, ect.
+    // Tant de point avec réponse 1, 2, 3, 4, etc.
     //      Rep1    -->     0 pts
     //      Rep2    -->     1 pts
     //      Rep3    -->     2 pts
@@ -63,21 +63,27 @@
             margin:auto;
         }
         h1 {
-            color: orange;
-            text-shadow: 2px 2px 30px red;
-            background: url('img/motif.jpg') no-repeat;
-            background-size: cover;
-            border: 5px inset brown;
-            font-size: 15px;
+            color: white;
+            text-shadow: 2px 2px 30px black;
+            font-size: 30px;
+            width: 500px;
+            margin-left: 100px;
+            margin-top: 150px;
         }
         p {
             color: white;
-            margin-top: 200px;
+            margin-top: 100px;
+            margin-left: 20px;
+            text-shadow: 2px 2px 2px black;
+        }
+        a:visited, a {
+            color: #c2d7f9;
         }
         h3 {
-            margin-left: 200px;
+            margin-left: 300px;
+            margin-top: 100px;
             color: orange;
-            text-shadow: 2px 2px 30px red;
+            text-shadow: 2px 2px 30px #decaf7;
         }
         img[src*=Platon] {
             margin-top: 20px;
@@ -85,6 +91,9 @@
             height: 200px;
         }
         .jugement {
+            display: flex;
+        }
+        .foot {
             display: flex;
         }
         </style>
@@ -99,20 +108,22 @@
                     echo "Bravo tes réponses m'ont permis de voir que tu méritais de sortir de l'ignorance ! Alors va hors de la caverne et n'y reviens plus !";
                 }
                 elseif ($score/$total>=0.5) {
-                    echo "Malheureusment tes réponses ne m'ont pas permis de t'emmener hors de la caverne, néanmoins admire le soleil. Encore un effort et tu arriveras à voir la beauté du monde extérieur";
+                    echo "Malheureusment tes réponses ne m'ont pas permis de t'emmener hors de la caverne, néanmoins admire le soleil qui est un avant goût de ce qui t'attend. Encore un petit effort et tu arriveras à voir la réalité de ce monde";
                 }
                 elseif ($score/$total>=0.25) {
                     echo "Tu es encore loin de la sortie de la caverne, mais ne perds pas espoir !";
                 }
                 else {
-                    echo "Malheureusement tes réponses ne m'ont pas permis de t'emmener au dehors de la caverne... Je crains que tu y laisses ta vie ici";
+                    echo "Malheureusement tes réponses ne m'ont pas permis de t'emmener au dehors de la caverne...";
                 }
                 ?></h1>
             </div>
-            <h3><a href="index.php">Retourner au point de départ</a></h3>
-            <p><?php // Affichage du ratio du joueur
-            echo "Votre note est de ".number_format($score*100/$total,0)." % selon vos réponses données<br />";
-            ?></p>
+            <div class='foot'>
+                <p><?php // Affichage du ratio du joueur
+                echo "Votre note est de ".number_format($score*100/$total,0)." % selon vos réponses données<br />";
+                ?></p>
+                <h3><a href="index.php">Retourner au point de départ</a></h3>
+            </div>
         </div>
 	</body>
 </html>

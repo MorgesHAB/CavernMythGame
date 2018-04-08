@@ -22,11 +22,12 @@
         	background-size: cover;
         	color: white;
         	font-size: 20px;
+            text-shadow: 2px 2px 2px black;
         }
         .rep {
         	width: 500px;
-        	margin-left: 200px;
-        	margin-top: 100px;
+        	margin-left: 250px;
+        	margin-top: 30px;
         }
         form {
             width: 400px;
